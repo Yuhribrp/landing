@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&family=Poppins:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap');
+@import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css');
+
+body {
+  margin: 0;
+  font-family: Open Sans;
+  background-color: rgb(241, 241, 241);
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  opacity: 0.85;
+  text-shadow: 3px 3px 1.5px black;
+  font-size: 55px;
+  text-align: center;
+}
+h2{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 27px;
+}
+h3, h4 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+a {
+  text-decoration: none;
+}
+
+p{
+  font-size: 20px;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+}
+
+.text-center {
+  text-align: center;
+}
+
+/* Custom design below! */
+
+.container {
+  width: 900px;
+  margin: auto;
+}
+
+.banner {
+  background-image: linear-gradient(rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.2) 50%), url("https://images.unsplash.com/photo-1560725892-cb7e435c2310?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1953&q=80");
+  background-size: cover;
+  background-position: center;
+  padding: 200px 0;
+}
+
+.banner h1 {
+  color: white;
+  margin: 0;
+}
+
+.banner p {
+  color: white;
+  opacity: .75;
+  font-weight: bold;
+  margin-bottom: 40px;
+  text-shadow: 2px 2px 1.5px black;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.btn-primary {
+  display: inline-block;
+  background: linear-gradient(to bottom, #850a0a, rgb(197, 83, 83));
+  padding: 15px 25px;
+  opacity: .85;
+  box-shadow: 2px 2px 1px #3d0a0a;
+  border-radius: 50px;
+  color: white;
+  font-weight: bold;
+  transition: 0.2s;
+  margin-left: 381px;
+}
+.btn-primary:hover{
+  text-decoration: none;
+  opacity: .85;
+  background: linear-gradient(to bottom, rgb(197, 83, 83), #850a0a);
+  box-shadow: 2px 2px 1px #3d0a0a;
+}
+
+.card img {
+  height: 100px;
+}
+
+.card p {
+  opacity: .5;
+}
+
+.card {
+  width: 200px;
+  border-radius: 8px;
+  box-shadow: 0 0 5px rgb(230,230,230);
+  text-align: center;
+  padding: 20px;
+  border: 1px solid rgb(230,230,230);
+}
+
+.cards {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.footer {
+  text-align: center;
+  padding: 60px;
+  background-color: #814b4b;
+  opacity: .75;
+}
+
+.footer a {
+  font-size: 40px;
+  color:  #330303;
+}
+
+.footer p {
+  color: #000000;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 25px;
+}
